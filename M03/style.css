@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:hsl(25, 88%, 52%);;
+    position: fixed;
+    width:100%;
+    border-bottom:3px solid #e9b438;
+    margin:10px auto;
+    padding:10px;
+    border-radius:10px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    display:flex;
+    gap:10px;
+}
+
+.logo {
+    border-radius:5px;
+    width:60px;
+    height:60px;
+}
+
+h1 {
+    color:white;
+    font-family:Gabriola;
+    font-size:40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-top:10px;
+}
+
+.nav-container {
+    display:flex;
+    list-style:none;
+    align-items:center;
+    gap:10px;
+    padding-left: 10%;
+    padding-top:5px;
+}
+
+
+
+
+
